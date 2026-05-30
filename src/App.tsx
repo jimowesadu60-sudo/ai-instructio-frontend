@@ -1431,7 +1431,7 @@ export default function App() {
 
                 <textarea 
                   className={`w-full resize-none outline-none text-gray-800 placeholder-gray-400 text-base bg-transparent ${isInputExpanded ? 'flex-1' : 'h-6'}`}
-                  placeholder="留学一年，终于适应了国外生活"
+                  placeholder="输入任意主题，生成脚本或指令"
                   value={inputText}
                   onChange={e => setInputText(e.target.value)}
                   onFocus={() => setIsInputExpanded(true)}
